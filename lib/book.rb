@@ -14,11 +14,11 @@ class Book
 end
 book = Book.new("The World According to Garp")
 #puts book.title
-book.author="Agatha Christie"
+#book.author="Agatha Christie"
 #puts book.author
-book.page_count=272
+#book.page_count=272
 #puts book.page_count
-book.genre="Mystery"
+#book.genre="Mystery"
 #puts book.genre
 
 

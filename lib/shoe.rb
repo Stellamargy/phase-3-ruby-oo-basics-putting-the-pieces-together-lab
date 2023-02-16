@@ -6,13 +6,17 @@ class Shoe
     end
     def cobble
         puts "Your shoe is as good as new!"
-        @condition="new"
+        # @condition="new"
+        if @condition=="old"
+            @condition="new"
+        end
+
     end
 
 end
-shoe=Shoe.new("Nike")
-shoe.color="red"
-shoe.size=9.5
-shoe.material = "suede"
-shoe.condition = "old"
-puts shoe.cobble
+# shoe=Shoe.new("Nike")
+# shoe.color="red"
+# shoe.size=9.5
+# shoe.material = "suede"
+# shoe.condition = "old"
+# puts shoe.cobble
